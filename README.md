@@ -1,6 +1,6 @@
 ## Dev Front End (React)
 
-### Projeto ToDo-List
+### Projeto ToDo-List:
 
 Eesse projeto foi desenvolvido durante o curso de [TypeScript](https://www.udemy.com/course/typescript-do-basico-ao-avancado-c-react-express/). Utilizou-se o [Vite](https://vitejs.dev/guide/) para a criação do projeto
 
@@ -12,7 +12,7 @@ Eesse projeto foi desenvolvido durante o curso de [TypeScript](https://www.udemy
 - [TypeScript](https://www.typescriptlang.org/pt/docs/handbook/typescript-in-5-minutes.html)
 - [Netlify](https://app.netlify.com)
 
-### Acesse o link abaixo para usá-lo
+### Acesse o link abaixo para visualizá-lo:
 
 - [ToDo-List](https://react-my-list.netlify.app)
 
