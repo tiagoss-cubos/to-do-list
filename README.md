@@ -2,7 +2,8 @@
 
 ### Projeto ToDo-List:
 
-Eesse projeto foi desenvolvido durante o curso de [TypeScript](https://www.udemy.com/course/typescript-do-basico-ao-avancado-c-react-express/). Utilizou-se o [Vite](https://vitejs.dev/guide/) para a criação do projeto
+Eesse projeto foi desenvolvido durante o curso de [TypeScript](https://www.udemy.com/course/typescript-do-basico-ao-avancado-c-react-express/). Utilizou-se o [Vite](https://vitejs.dev/guide/) para a criação do projeto.
+
 
 ![image](https://user-images.githubusercontent.com/85588650/213342619-4ac93708-7428-46f3-b27a-4e0072611e7e.png)
 
