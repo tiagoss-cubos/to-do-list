@@ -12,10 +12,14 @@ const Modal = ({ children, title }: Props) => {
     const modal = document.getElementById("modal");
     modal!.classList.add("hide");
   };
+
   return (
     <div id="modal" className="hide">
       <div className={styles.fade} onClick={closeModal}></div>
       <div className={styles.modal}>
+        <span className={styles.btnClose} onClick={closeModal}>
+          x
+        </span>
         <h2>{title}</h2>
         {children}
       </div>

@@ -1,28 +1,31 @@
 .form {
   display: flex;
   flex-direction: column;
-  max-width: 400px;
   margin: 0 auto;
+  max-width: 25rem;
 }
 
 .form input {
-  padding: 8px 15px;
-  margin-bottom: 1.5em;
-  border-radius: 0;
   border: 1px solid #282c34;
+  border-radius: 0;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.9375rem;
 }
 
 .form input[type="submit"] {
   background-color: #61dafb;
   border: 1px solid #61dafb;
-  color: #000;
-  transition: 0.5s;
+  color: #fff;
   cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 700;
+  transition: 0.5s;
 }
 
 .form input[type="submit"]:hover {
   background-color: #fff;
   border-color: #282c34;
+  color: #61dafb;
 }
 
 .input_container {
@@ -33,5 +36,5 @@
 
 .input_container label {
   font-weight: bold;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.4rem;
 }

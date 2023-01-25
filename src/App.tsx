@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import styles from "./App.module.css";
@@ -26,6 +26,17 @@ const App = () => {
     setTaskToUpdate(task);
   };
 
+  const handleUpdate = (id: number, title: string, difficulty: number) => {
+    const updatedTasks: ITask = { id, title, difficulty };
+
+    const updatedItems = taskList.map((task) => {
+      return task.id === updatedTasks.id ? updatedTasks : task;
+    });
+
+    setTaskList(updatedItems);
+    hideOrShowModal(false);
+  };
+
   const deleteTask = (title: string): void => {
     setTaskList(
       taskList.filter((task) => {
@@ -42,7 +53,9 @@ const App = () => {
           <TaskForm
             btnText="Editar"
             taskList={taskList}
+            taskToUpdate={taskToUpdate}
             setTaskList={setTaskList}
+            handleUpdate={handleUpdate}
           />
         }
       ></Modal>
@@ -51,7 +64,7 @@ const App = () => {
       <main className={styles.main}>
         <h2>conteúdo...</h2>
         <TaskForm
-          btnText="Editar"
+          btnText="Cadastrar"
           taskList={taskList}
           setTaskList={setTaskList}
         />
